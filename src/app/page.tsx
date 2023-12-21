@@ -1,7 +1,7 @@
 'use client'
 
 import { useTheme } from './contextTheme'
-import { TimeoutComponent } from './wrapper'
+import { TimeoutComponent } from './timeoutComponent'
 
 export default function Home() {
   const { theme, toggleTheme } = useTheme()
